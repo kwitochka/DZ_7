@@ -1,0 +1,182 @@
+body {
+	background-size: 100% 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 150%;
+	font-weight: normal;
+	font-variant: normal;
+	background-attachment: fixed;
+	background-color: #FFF;
+	background-image: url(images/strip.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-align: left;	
+}
+
+.wrapper { 
+	width: 960px;  
+	background-image:url(images/header-bg.png);
+	background-repeat:repeat-x;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 10px;
+	background-color: #FFFFFF;
+	margin: 25px auto; 
+	border: 1px solid #000000;
+	text-align: left; 
+} 
+
+header img {
+	margin: 10px;
+}
+
+.logo {
+	margin: 10px;
+	float: left;
+	height: 100px;
+	width: 300px;
+}
+
+/*HEADER*/
+header { 
+	height:120px;
+	/*float:left;*/
+	width:100%;
+	margin-bottom:40px;
+} 
+
+h1 {
+	line-height: 150%;
+}
+
+/*MAIN CONTENT*/
+.mainContent { 
+	width:680px;
+	padding: 0 20px; 
+	float:right;
+} 
+
+.mainContent img {
+	display: block;
+	margin: 20px auto;
+	border-radius:10px;
+	border:5px solid #00698c;
+
+}
+
+.mainContent a:nth-of-type(-n+3)>img {
+	width: 300px;
+}
+
+
+.mainContent a:last-child >img{
+	width: 600px;
+}
+
+header::after,
+.container::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+/*ASIDE AND MENU*/
+
+aside {
+	float: left; 
+	width: 200px; 
+	padding: 15px 10px 15px 20px;
+}
+
+aside a {
+color:#000;
+	font-size:13px;
+	text-decoration:none;
+}
+
+aside a:hover {
+text-decoration:underline;
+font-size:14px;
+color: #000;
+}
+
+
+
+aside ul  {
+	margin: 0px;
+	padding-left: 20px;
+	line-height: 150%;
+}
+
+aside ul  li {
+margin:10px 0;
+}
+
+.news {
+	margin-top: 40px;
+}
+
+.news li:not(:last-child),
+span {
+	font-weight: bold;
+}
+
+/*FOOTER*/
+
+footer { 
+	padding: 0 10px 0 20px; 
+	background:#DDDDDD; 
+	height:90px;
+} 
+
+footer p {
+	margin: 0; 
+	padding: 10px 0; 
+	font-weight:bold;
+}
+
+
+/*.clearfloat { 
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}*/
+
+
+
+address {
+  width: 400px;
+  height: 100px;
+  margin: 10px;
+  float: right;
+  line-height: 21px;
+  font-size: 14px;
+  font-style: normal;
+}
+
+address div:first-child {
+	width: 180px;
+	float: left;
+	padding-right: 20px;
+}
+
+address div:last-child {
+	width: 200px;
+	float: left;
+}
+
+
+
+h1,
+.mainContent p:first-child {
+	line-height:150%;
+}
+
+.mainContent p:first-child {
+	font-size: 2em;
+	font-weight: bold;
+}
+/*Cropbar slipper*/
+/* Copyright 2014 Evernote Corporation. All rights reserved. */
