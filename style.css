@@ -50,13 +50,13 @@ h1 {
 }
 
 /*MAIN CONTENT*/
-.mainContent { 
+main { 
 	width:680px;
 	padding: 0 20px; 
 	float:right;
 } 
 
-.mainContent img {
+main img {
 	display: block;
 	margin: 20px auto;
 	border-radius:10px;
@@ -64,12 +64,12 @@ h1 {
 
 }
 
-.mainContent a:nth-of-type(-n+3)>img {
+main a:nth-of-type(-n+3)>img {
 	width: 300px;
 }
 
 
-.mainContent a:last-child >img{
+main a:last-child >img{
 	width: 600px;
 }
 
@@ -170,11 +170,11 @@ address div:last-child {
 
 
 h1,
-.mainContent p:first-child {
+main p:first-child {
 	line-height:150%;
 }
 
-.mainContent p:first-child {
+main p:first-child {
 	font-size: 2em;
 	font-weight: bold;
 }
